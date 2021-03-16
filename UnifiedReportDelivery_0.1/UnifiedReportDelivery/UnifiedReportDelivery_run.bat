@@ -1,0 +1,3 @@
+%~d0
+cd %~dp0
+java -Dtalend.component.manager.m2.repository=%cd%/../lib -Xms256M -Xmx1024M -cp .;../lib/routines.jar;../lib/activation.jar;../lib/dom4j-1.6.1.jar;../lib/filecopy.jar;../lib/jakarta-oro-2.0.8.jar;../lib/jsch-0.1.53.jar;../lib/log4j-1.2.17.jar;../lib/mail-1.4.jar;../lib/talend_file_enhanced_20070724.jar;../lib/talendcsv.jar;unifiedreportdelivery_0_1.jar; pp_unified_uat.unifiedreportdelivery_0_1.UnifiedReportDelivery  --context=Default %*
